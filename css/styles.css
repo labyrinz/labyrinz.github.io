@@ -1,0 +1,111 @@
+body {
+  color: #34495e;
+  font-family: "Hind", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.231;
+}
+input,
+button,
+select,
+textarea {
+  font-family: "Hind", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+}
+p{
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+
+.content-31 {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.content-23 .c23-video {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+.content-23 .control-btn {
+  opacity: 10;
+  filter: alpha(opacity=1000);
+  opacity: 0.1;
+  filter: alpha(opacity=10);
+}
+.content-23.custom-bg {
+  background-image: url('../img/team2.jpg');
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-color: #1B1F23;
+}
+
+.content-23.character {
+  background-image: url('../img/protagonista.jpg');
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-color: #1B1F23;
+}
+
+#bgVideo {
+  overflow: hidden;
+}
+#bgVideo > video {
+  position: absolute !important;
+}
+
+.btn-play{
+  display: inline-block;
+  text-indent: -9999px;
+  vertical-align: middle;
+  overflow: hidden;
+  width: 67px;
+  height: 67px;
+  margin: 0 50px;
+  background: url("../framework/common-files/img/header/btn-play.png") no-repeat;
+}
+
+.header-10-sub .hero-unit h1{
+  text-indent: -10000px;
+  width: 300px;
+  height: 219px;
+  background: transparent url(../img/labyrinz-white-orange-vector.png) no-repeat center center;
+  margin: 0 auto 65px;
+}
+
+.header-10-sub .hero-unit p{
+  margin-top: 10px
+}
+
+.contacts-4{
+  background: url(../img/cuentanos.jpg);
+}
+
+
+header.header-10 a.brand{
+  text-indent: -10000px;
+  width: 150px;
+  height: 60px;
+  background: transparent url(../img/labyrinz-logo-small.png) no-repeat center center;
+  padding-top: 50px !important;
+}
+
+.header-10-sub .background{
+  background-image: url('../img/inspiration.jpg');
+}
+
+.header-10 .header-background{
+  background: #000;
+}
+
+@media (max-width: 767px) {
+  .container {
+    padding: 0px 5px;
+  }  
+}
+
+
+
+
+
